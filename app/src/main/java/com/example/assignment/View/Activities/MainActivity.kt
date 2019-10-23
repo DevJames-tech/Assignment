@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.example.assignment.R
 import com.example.assignment.View.Fragments.DisplayFragment
 
+
 class MainActivity : AppCompatActivity() {
 
     val fragmentManager = supportFragmentManager;
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun initDisplayFragment(){
 
-        fragmentManager.beginTransaction().add(R.id.displayFragment, displayFragmentInstance)
+        fragmentManager.beginTransaction().add(R.id.displayFragment, displayFragmentInstance).commit()
 
 
 

@@ -4,15 +4,17 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#3F51B5"
         tools:context=".View.Fragments.DisplayFragment">
 
     <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:background="#B41414"
             android:layout_width="match_parent"
 
             android:layout_height="match_parent">
 
     </androidx.recyclerview.widget.RecyclerView>
-
 
 
 </FrameLayout>
